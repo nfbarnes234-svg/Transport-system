@@ -213,3 +213,18 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+    /* RESPONSIVE DESIGN */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 28px;
+      }
+
+      .hero p {
+        font-size: 14px;
+      }
+
+      .service-box {
+        width: 90%;
+      }
+    }
