@@ -6,7 +6,12 @@
 }
 
 body {
-    line-height: 1.6;
+     overflow-x: hidden;
+    width:100%;
+}
+section {
+  width: 100%;
+  max-width: 100%;
 }
 
 /* NAVBAR */
@@ -17,6 +22,7 @@ header {
     padding: 15px 50px;
     background: #111;
     color: #fff;
+    width:100%;
 }
 
 .logo {
@@ -55,6 +61,7 @@ nav ul li a:hover {
     align-items: center;
     text-align: center;
     padding: 20px;
+    width:100%;
 }
 
 .hero h1 {
@@ -84,6 +91,7 @@ nav ul li a:hover {
     padding: 60px 20px;
     background: #f4f4f4;
     text-align: center;
+    width:100%;
 }
 
 .service-box {
@@ -96,7 +104,7 @@ nav ul li a:hover {
 .card {
  background: #fff;
     margin: 10px;
-    width: 220px;
+    width: 100%;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -136,6 +144,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:100%;
 }
 
 /* BOOKING PAGE */
@@ -204,6 +213,7 @@ nav ul li a:hover {
     background: #222;
     color: #fff;
     text-align: center;
+    width:100%;
 }
 
 /* FOOTER */
@@ -212,6 +222,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 15px;
+    width:100%;
 }
 
     /* RESPONSIVE DESIGN */
